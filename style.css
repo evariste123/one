@@ -12,10 +12,10 @@ body{
     margin-left: 10px;
     display: flow-root;
     color: rgb(4, 252, 4);
-    display: flexbox;
+    display: -ms-flexbox;
 }
 .navbar{
-    display: flexbox;
+    display: -ms-flexbox;
     text-decoration: none;
     text-transform: capitalize;
     justify-content: space-evenly;
@@ -29,7 +29,7 @@ body{
     text-align: center;
     text-transform: capitalize;
     text-shadow: 10px;
-    display: flexbox;
+    display: -ms-flexbox;
     margin-left: 130px;
     background: transparent;
 }
@@ -46,6 +46,7 @@ body{
     transition: 0.3s;
     border: 1px solid violet;
     border-radius: 20px;
+    display: -ms-flexbox;
 }
 .but button:hover{
     background-color: #23e00f;
@@ -57,7 +58,7 @@ body{
 font-style: italic;
 bottom: 40px;
 margin-left: 20px;
-display: flexbox;
+display: -ms-flexbox;
 }
 .item0 p{
     position: relative;
@@ -65,7 +66,7 @@ display: flexbox;
     margin-left: 20px;
     text-transform: capitalize;
     text-decoration: solid;
-    display: flexbox;
+    display: -ms-flexbox;
 }
 .item1 p,h2{
     position: relative;
@@ -75,14 +76,14 @@ display: flexbox;
     margin-left: 900px;
     -ms-zoom-animation: default;
     color: #23e00f;
-    display: flexbox;
+    display: -ms-flexbox;
 }
 .item2 button{
     position: relative;
     width: 10vw;
     height: 7vh;
     justify-content: space-between;
-    display: flexbox;
+    display: -ms-flexbox;
     border-radius: 20px;
     text-transform: capitalize;
     cursor: pointer;
@@ -103,7 +104,7 @@ display: flexbox;
     border-radius: 20px;
     width: 90vw;
     margin-left: 50px;
-    display: flexbox;
+    display: -ms-flexbox;
 }
 .b1 button{
     position: relative;
@@ -114,7 +115,7 @@ display: flexbox;
     width: 6vw;
     height: 6vh;
     border-radius: 10px;
-    display: flexbox;
+    display: -ms-flexbox;
 }
 .p p,h3{
     position: relative;
@@ -122,11 +123,11 @@ display: flexbox;
     margin-left: 490px;
     text-decoration: solid;
     text-transform: capitalize;
-    display: flexbox;
+    display: -ms-flexbox;
 }
 .cat img{
     position: relative;
-    display: flexbox;
+    display: -ms-flexbox;
     width: 25vw;
     height: 20vh;
     border-radius: 10px;
@@ -135,7 +136,6 @@ display: flexbox;
     top: 30px;
     transition: 0.3s;
     cursor: pointer;
-    display: flexbox;
 }
 .cat img:hover{
     box-shadow: 10px 10px 0 0 #23e00f;
@@ -145,7 +145,7 @@ display: flexbox;
     text-align: center;
     text-transform: capitalize;
     font-size: 20px;
-    display: flexbox;
+    display: -ms-flexbox;
     top: 10px;
 }
  .b2 button{
@@ -159,7 +159,7 @@ display: flexbox;
     border: 1px solid green;
     cursor: pointer;
     transition: 0.3s;
-    display: flexbox;
+    display: -ms-flexbox;
  }
 .b2 button:hover{
      color: white;
@@ -173,7 +173,7 @@ display: flexbox;
     border-radius: 20px;
     top: 20px;
     margin-left: 50px;
-    display: flexbox;
+    display: -ms-flexbox;
  }
  .b3 button{
     position: relative;
@@ -183,7 +183,7 @@ display: flexbox;
     top: 20px;
     margin-left: 550px;
     border-radius: 10px;
-    display: flexbox;
+    display: -ms-flexbox;
     border: 1px solid rgb(253, 4, 253);
  }
  .ct p{
@@ -192,7 +192,7 @@ display: flexbox;
     text-transform: capitalize;
     margin-left: 520px;
     top: 10px;
-    display: flexbox;
+    display: -ms-flexbox;
  }
  .cti img{
     position: relative;
@@ -203,7 +203,7 @@ display: flexbox;
     border-radius: 10px;
     transition: 0.3s;
     cursor: pointer;
-    display: flexbox;
+    display: -ms-flexbox;
  }
  .cti img:hover{
     box-shadow: 10px 0 10px 0 green;
@@ -214,7 +214,7 @@ text-decoration: solid;
 text-transform: capitalize;
 bottom: 170px;
 margin-left: 600px;
-display: flexbox;
+display: -ms-flexbox;
  }
  .b4 button{
     position: relative;
@@ -227,7 +227,7 @@ display: flexbox;
     margin-left: 600px;
     cursor: pointer;
     transition: 0.3s;
-    display: flexbox;
+    display: -ms-flexbox;
  }
  .b4 button:hover{
     background-color: #567234;
@@ -240,7 +240,7 @@ display: flexbox;
     background-color: white;
     border-radius: 20px;
     bottom: 70px;
-    display: flexbox;
+    display: -ms-flexbox;
     margin-left: 0px;
  }
  .b5 button{
@@ -252,7 +252,7 @@ display: flexbox;
     margin-left: 580px;
     width: 5vw;
     border-radius: 10px;
-    display: flexbox;
+    display: -ms-flexbox;
  }
  .card p{
     position: relative;
@@ -261,14 +261,14 @@ display: flexbox;
     text-transform: capitalize;
     font-size: 20px;
     margin-left: 450px;
-    display: flexbox;
+    display: -ms-flexbox;
  }
  .card0 p{
     position: relative;
     text-align: center;
     text-decoration: solid;
     text-transform: capitalize;
-    display: flexbox;
+    display: -ms-flexbox;
  }
  .card1 img{
     position: relative;
@@ -279,7 +279,7 @@ display: flexbox;
     margin-left: 30px;
     cursor: pointer;
     transition: 0.3s;
-    display: flexbox;
+    display: -ms-flexbox;
  }
  .card1 img:hover{
 box-shadow: 10px 10px 0 0 blue;
@@ -298,7 +298,7 @@ box-shadow: 10px 10px 0 0 blue;
     border-radius: 20px;
     cursor: pointer;
     transition:0.3s;
-    display: flexbox;
+    display: -ms-flexbox;
  }
  .card2 button:hover{
     background-color: rgb(3, 3, 90);
@@ -311,7 +311,7 @@ box-shadow: 10px 10px 0 0 blue;
     text-transform: capitalize;
     top: 20px;
     margin-left: 340px;
-    display: flexbox;
+    display: -ms-flexbox;
  }
  .card4 img{
     position: relative;
@@ -323,7 +323,7 @@ box-shadow: 10px 10px 0 0 blue;
     transition: 3s;
     cursor: pointer;
     box-shadow: 10px 10px 0 0;
-    display: flexbox;
+    display: -ms-flexbox;
  }
  .card4 img:hover{
     background-color: violet;
@@ -341,7 +341,7 @@ box-shadow: 10px 10px 0 0 blue;
     color: white;
     cursor: pointer;
     transition: 0.3s;
-    display: flexbox;
+    display: -ms-flexbox;
  }
  .card5 button:hover{
     background-color: rgb(2, 2, 63);
@@ -354,7 +354,7 @@ box-shadow: 10px 10px 0 0 blue;
     border-radius: 20px;
     bottom:60px;
     margin-left: 0px;
-    display: flexbox;
+    display: -ms-flexbox;
 }
 .card6 button{
     position: relative;
@@ -365,7 +365,7 @@ box-shadow: 10px 10px 0 0 blue;
     top: 20px;
     margin-left: 550px;
     border-radius: 10px;
-    display: flexbox;
+    display: -ms-flexbox;
 }
 .hero p{
     position: relative;
@@ -374,7 +374,7 @@ box-shadow: 10px 10px 0 0 blue;
     text-transform: capitalize;
     top: 20px;
     margin-left: 430px;
-    display: flexbox;
+    display: -ms-flexbox;
 }
 .ego img{
     position: relative;
@@ -385,7 +385,7 @@ box-shadow: 10px 10px 0 0 blue;
     margin-left: 20px;
     cursor: pointer;
     transition: 0.3s;
-    display: flexbox;
+    display: -ms-flexbox;
 }
 .ego img:hover{
     box-shadow: 10px 10px 10px 10px violet;
@@ -397,7 +397,7 @@ box-shadow: 10px 10px 0 0 blue;
     font-size: 20px;
     bottom: 200px;
     margin-left: 750px;
-    display: flexbox;
+    display: -ms-flexbox;
 }
 .do button{
     position: relative;
@@ -411,7 +411,7 @@ box-shadow: 10px 10px 0 0 blue;
     cursor: pointer; 
     bottom: 230px;
     margin-left: 800px;
-    display: flexbox;
+    display: -ms-flexbox;
 }
 .do button:hover{
     background-color: rgb(28, 2, 75);
@@ -423,7 +423,7 @@ box-shadow: 10px 10px 0 0 blue;
     background-color: #f6f6f7;
     border-radius: 20px;
     bottom: 50px;
-    display: flexbox;
+    display: -ms-flexbox;
 }
 #select.select1,select{
     position: relative;
@@ -439,7 +439,7 @@ box-shadow: 10px 10px 0 0 blue;
     transition: 0.3s; 
     border: 1px solid violet;
     border-radius: 10px;
-    display: flexbox;
+    display: -ms-flexbox;
 }
 #select.select1,select:hover{
 background-color: violet;
@@ -453,7 +453,7 @@ background-color: violet;
     border: 1px solid violet;
     margin-left: 560px;
     background-color: violet;
-    display: flexbox;
+    display: -ms-flexbox;
 }
 .car0 p{
     position: relative;
@@ -462,10 +462,10 @@ background-color: violet;
     text-transform: capitalize;
     top: 20px;
     margin-left: 490px;
-    display: flexbox;
+    display: -ms-flexbox;
 }
 .car1 p{
-    display: flexbox;
+    display:-ms-flexbox;
     position: relative;
     font-size: 20px;
     text-transform: capitalize;
@@ -474,7 +474,7 @@ background-color: violet;
     text-align: center;
 }
 #logos.container1{
-    display: flexbox;
+    display: -ms-flexbox;
     position: relative;
     background-color: white;
     width: 90vw;
@@ -483,7 +483,7 @@ background-color: violet;
     border-radius: 20px;
 }
 .car3 button{
-    display: flexbox;
+    display: -ms-flexbox;
     position: relative;
     width: 6vw;
     height: 6vh;
@@ -496,7 +496,7 @@ background-color: violet;
     background-color: rgb(229, 132, 229);
 }
 .car4 p{
-    display: flexbox;
+    display: -ms-flexbox;
     position: relative;
     text-decoration: solid;
     text-transform: capitalize;
@@ -505,7 +505,7 @@ background-color: violet;
     margin-left: 440px;
 }
 .car5 p{
-    display: flexbox;
+    display: -ms-flexbox;
     position: relative;
     text-decoration: solid;
     text-transform: capitalize;
@@ -514,7 +514,7 @@ background-color: violet;
     text-align: center;
 }
 .c1 p{
-    display: flexbox;
+    display: -ms-flexbox;
     position: relative;
     font-size: 25px;
     text-decoration: solid;
@@ -524,7 +524,7 @@ background-color: violet;
     margin-left: 30px;
 }
 .c2 img{
-    display: flexbox;
+    display: -ms-flexbox;
     position: relative;
     width: 20vw;
     height: 20vh;
@@ -540,9 +540,10 @@ background-color: violet;
     color: #23e00f;
     margin-left: 500px;
     bottom: 110px;
+    display: -ms-flexbox;
 }
 .c4 img{
-    display: flexbox;
+    display: -ms-flexbox;
     position: relative;
     width: 20vw;
     height: 20vh;
@@ -562,13 +563,13 @@ background-color: violet;
     cursor: pointer;
     bottom: 150px;
     margin-left: 180px;
-    display: flexbox;
+    display: -ms-flexbox;
 }
 .c6 button:hover{
     background-color: rgb(2, 2, 70);
 }
 .c5 p{
-    display: flexbox;
+    display: -ms-flexbox;
     position: relative;
     text-decoration: underline;
     bottom: 130px;
@@ -577,7 +578,7 @@ background-color: violet;
     text-transform: capitalize;
 }
 .c0 p{
-    display: flexbox;
+    display: -ms-flexbox;
     position: relative;
     text-align: center;
     text-decoration: solid;
@@ -586,20 +587,20 @@ background-color: violet;
     bottom: 160px;
 }
 .lang select{
-    position: relative;
-    display: flexbox;
+    position: fixed;
+    display: -ms-flexbox;
     width: 10vw;
     height: 5vh;
     border: 1px double black;
     border-radius: 10px;
     background-color: #e8c2f0;
     color: rgb(8, 8, 8);
-    bottom: 150px;
+    bottom: 250px;
     margin-right: 800px;
 }
 .val p{
     position: relative;
-    display: flexbox;
+    display: -ms-flexbox;
     font-size: 25px;
     text-transform: capitalize;
     text-align: center;
@@ -614,20 +615,19 @@ background-color: violet;
     align-items: center;
 }
 .lit{
-    display:flex;
+    display:-ms-flexbox;
     gap: 10px;
 }
 .lit a{
     position: relative;
     color: white;
-    display: flexbox;
+    display: -ms-flexbox;
     text-decoration: none;
     top: 30px;
-    width: 12vw;
-    height: 4vh;
     text-align: center;
     border: 1px solid rgb(1, 1, 24);
     border-radius: 10px;
+    margin-left: 20px;
     transition: 0.3s;
     cursor: pointer;
 }
@@ -641,6 +641,7 @@ background-color: violet;
     top: 60px;
     color: white;
     margin-left: 22px;
+    display: -ms-flexbox;
 }
 .link img{
     position: relative;
@@ -648,8 +649,9 @@ background-color: violet;
     height: 30px;
     border-radius: 20px;
     margin-left: 800px;
-    bottom: 40px;
+    top: 20px;
     flex-direction: row;
+    display: -ms-flexbox;
 }
 .link1 img{
      position: relative;
@@ -657,7 +659,8 @@ background-color: violet;
     height: 30px;
     border-radius: 20px;
     margin-left: 850px;
-    bottom: 75px;
+    bottom:15px;
+    display: -ms-flexbox;
 }
 .link2 img{
      position: relative;
@@ -665,6 +668,24 @@ background-color: violet;
     height: 30px;
     border-radius: 20px;
     margin-left: 900px;
-    bottom: 109px;
+    bottom:50px;
     flex-direction: row;
+    display: -ms-flexbox;
+}
+.back button{
+    position: fixed;
+    width: 6vw;
+    height: 5vh;
+    border: 1px solid green;
+    background-color: #01093a;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+    bottom: 250px;
+    margin-left: 1000px;
+    display: -ms-flexbox;
+}
+.back button:hover{
+    background-color: #567234;
 }

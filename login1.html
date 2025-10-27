@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create new account</title>
+    <style>
+        #login1.container3{
+            background-color: rgb(2, 2, 34);
+            height: 120vh;
+            display: -ms-flexbox;
+            width: 85vw;
+            margin-left: 90px;
+        }
+        .register{
+            display: -ms-flexbox;
+            position: relative;
+             justify-items: center;
+            color: white;
+            border: 2px solid rgb(40, 2, 41);
+            height: 85vh;
+            top: 30px;
+            
+            border-radius: 10px;
+            background-color: rgb(7, 7, 49);
+        }
+        .r{
+            text-decoration: solid;
+            text-transform: capitalize;
+            font-size: 25px;
+            position: relative;
+            bottom: 10px;
+        }
+        .r1 input{
+            position: relative;
+            width: 30vw;
+            height: 5vh;
+            font-size: 20px;
+            text-align: center;
+            border: 1px solid violet;
+            border-radius: 10px;
+        }
+        .r0 input{
+             position: relative;
+            width: 30vw;
+            height: 5vh;
+            top:10px;
+            font-size: 20px;
+            text-align: center;
+            border: 1px solid violet;
+            border-radius: 10px;
+        }
+        .r2 input{
+             position: relative;
+            width: 30vw;
+            height: 5vh;
+            top: 20px;
+            font-size: 20px;
+            text-align: center;
+            border: 1px solid violet;
+            border-radius: 10px;
+        }
+        .r3 input{
+             position: relative;
+            width: 30vw;
+            height: 5vh;
+            top: 30px;
+            font-size: 20px;
+            text-align: center;
+            border: 1px solid violet;
+            border-radius: 10px;
+        }
+        .r4 select{
+             position: relative;
+            width: 30vw;
+            height: 5vh;
+            font-size: 20px;
+            top: 40px;
+            text-align: center;
+            border: 1px solid violet;
+            border-radius: 10px;
+        }
+        .r5 p{
+            position: relative;
+            text-decoration: solid;
+            text-transform: capitalize;
+            font-size: 20px;
+            top: 30px;
+        }
+        .r6 input{
+             position: relative;
+            width: 30vw;
+            height: 5vh;
+            font-size: 20px;
+            text-align: center;
+            border: 1px solid violet;
+            border-radius: 10px;
+            top: 50px;
+        }
+        .r7 input{
+             position: relative;
+            width: 30vw;
+            height: 5vh;
+            font-size: 20px;
+            text-align: center;
+            border: 1px solid violet;
+            border-radius: 10px;
+            top: 60px;
+        }
+        .button button{
+            position: relative;
+            width: 10vw;
+            height: 5vh;
+            border: 1px solid violet;
+            border-radius: 10px;
+            top: 100px;
+            margin-left: 20px;
+        }
+        .tem p{
+            position: relative;
+            text-transform: capitalize;
+            top: 20px;
+        }
+               
+.nav{
+    display: list-item;
+    justify-content: space-between;
+    font-size: 20px;
+    text-decoration: none;
+    align-items: center;
+}
+.lit{
+    display:-ms-flexbox;
+    gap: 10px;
+}
+.lit a{
+    position: relative;
+    color: white;
+    display: -ms-flexbox;
+    text-decoration: none;
+    top: 80px;
+    text-align: center;
+    border: 1px solid rgb(3, 3, 73);
+    border-radius: 10px;
+    margin-left: 25px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.lit a:hover{
+    background-color: #013a06;
+}
+.her p{
+    text-align: center;
+    position: relative;
+    text-decoration: solid;
+    font-size: 25px;
+    top: 70px;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <section class="container3" id="login1">
+        <form action="register-form">
+        <div class="register">
+            <div class="r">register here!!!!</div>
+            <div class="r1">
+                <input type="text" name="first name" id="first name" placeholder="enter your first name" required>
+            </div>
+            <div class="r0">
+                <input type="text" name="last name" id="last name" placeholder="enter your last name" required>
+            </div>
+            <div class="r2">
+                <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+            </div>
+            <div class="r3">
+                <input type="date" name="date" id="date" placeholder="enter your birthdate" required>
+            </div>
+            <div class="r4">
+                <select>
+                    <option value="gender">Gender</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="none">none chosen</option>
+                </select>
+            </div>
+            <hr>
+            <div class="r5">
+                <p>Generate stronger password that combine characters, <br>
+                numbers,symbols and other that can make your passive be strong.</p>
+            </div>
+            <div class="r6">
+                <input type="password" name="password" id="password" placeholder="enter your password" required>
+            </div>
+            <div class="r7">
+                <input type="password" name="password" id="passive" placeholder="confirm your password!" required>
+            </div>
+            <div class="button">
+                <button type="submit">send</button>
+                <button type="reset">reset</button>
+            </div>
+            <div class="tem">
+                <p>click here to confirm your <a href="./login.html">account!</a></p>
+            </div>
+        </div>
+        </form>
+          <nav class="nav">
+            <div class="lit">
+                <a href="#initiative">.initiative</a>
+                <a href="#takeaction">.Take action</a>
+                <a href="#aboutus">.about us</a>
+                <a href="news&resources">.News & Resources</a>
+                <a href="#privacy">.privacy policy</a>
+                <a href="#manage_cookies">.manage cookies</a>
+                <a href="#contact">.contact us</a>
+                <a href="./login.html">login</a>
+                <a href="./signup.html">sign Up</a>
+            </div>
+        </nav>
+        <div class="her">
+            <p>&copy;all right reserved by EB website</p>
+        </div>
+    </section>
+</body>
+</html>
