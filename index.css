@@ -1,0 +1,81 @@
+                
+.nav{
+    display: list-item;
+    justify-content: space-between;
+    font-size: 20px;
+    text-decoration: none;
+    align-items: center;
+       background-color: #567487;
+       padding: 10px;
+}
+.lit{
+    display:-ms-flexbox;
+    gap: 10px;
+}
+.lit a{
+    position: relative;
+    color: rgb(245, 244, 244);
+    display: -ms-flexbox;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 25px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.lit a:hover{
+    background-color: #788f7a;
+}
+footer{
+    text-align: absolute;
+    position: relative;
+    text-decoration: solid;
+    font-size: 25px;
+    top: 70px;
+    color: white;
+    height: 20vh;
+    background-color: #677787;
+}
+#initiative.btn{
+    background-image: url('./image/image3/IMG_20251024_091407_714~2.jpg');
+    background-size: cover;
+    bottom: 20px;
+    position: relative;
+    height: 80vh;
+}
+.btn1 p{
+position: relative;
+display: -ms-flexbox;
+width: 75vw;
+height: 20vh;
+top: 50px;
+margin-left: 80px;
+background-color: #5677;
+border: 1px solid;
+color: rgb(8, 8, 8);
+border-radius: 5px;
+font-size: 20px;
+text-align: center;
+}
+.web1 p{
+    position: relative;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: solid;
+    text-align: center;
+    display: -ms-flexbox;
+    bottom: 10px;
+    margin-left: 60px;
+}
+.web0 p{
+    position: relative;
+    text-decoration: solid;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    background-color: #567487;
+    border: 1px solid green;
+    color: blue;
+    top: 20px;
+}

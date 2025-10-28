@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>initiative</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+ <nav class="nav">
+            <div class="lit">
+                <a href="./index.html2">.initiative</a>
+                <a href="#takeaction">.Take action</a>
+                <a href="#aboutus">.about us</a>
+                <a href="news&resources">.News & Resources</a>
+                <a href="#privacy">.privacy policy</a>
+                <a href="#manage_cookies">.manage cookies</a>
+                <a href="#contact">.contact us</a>
+                <a href="./login.html">login</a>
+                <a href="./signup.html">sign Up</a>
+                <a href="./login1.html">register</a>
+            </div>
+        </nav>
+        <footer>
+            <p>&copy;all right reserved by EB website</p>
+        </footer>
+</body>
+</html>
