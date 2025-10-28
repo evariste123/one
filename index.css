@@ -165,13 +165,13 @@ transition: 0.3s;
     position: relative;
     text-align: center;
    display: -ms-flexbox;
-   height: 95vh;
+   height: 97vh;
 }
 .im1 img{
     position: relative;
     width: 90vw;
     display: -ms-flexbox;
-    height: 80vh;
+    height: 85vh;
     border-radius: 10px;
     border: 2px solid white;
     cursor: pointer;
