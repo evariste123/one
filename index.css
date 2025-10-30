@@ -23,7 +23,10 @@
     cursor: pointer;
 }
 .lit a:hover{
-    background-color: #788f7a;
+    text-decoration: underline;
+    color: #550887;
+    text-transform: lowercase;
+   
 }
 .footer{
 background-color: #677787;
