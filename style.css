@@ -1,10 +1,20 @@
 #web.eva{
-    background-color: rgb(236, 252, 236);
-    height: 100vh;
+    height: 105vh;
     position: relative;
     background-size: cover;
     opacity: 1;
-    background-image: url('./image/image3/sat.jpg');
+    animation-name:ani;
+    animation-duration: 15s;
+    animation-delay:15s;
+    -o-animation-delay: 6s;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    background-image: url('./image/image1/rock.jpg');
+}
+@keyframes ani{
+    from{background-image: url('./image/image1/nature.jpg');}
+    to{background-image: url('./image/image1/rock.jpg');}
 }
 body{
     background-color: rgb(1, 1, 37);
@@ -49,7 +59,7 @@ body{
 }
 .some{
     justify-items: end;
-    padding: 1rem;
+    padding: 2rem;
     position: relative;
     background-color: #01093a;
 }
@@ -60,7 +70,7 @@ body{
     color: black;
     text-transform: capitalize;
     text-decoration: none;
-    top: 80px;
+    top: 110px;
    margin-left: 50px;
     cursor: pointer;
     transition: 0.3s;
@@ -84,8 +94,9 @@ color: orange;
 .item0 p{
     position: relative;
     top: 100px;
-    font-size: 20px;
-    color: white;
+    font-size: 25px;
+    color:rgb(252, 251, 250);
+    opacity: 1;
     margin-left: 80px;
     text-transform: capitalize;
     text-decoration: solid;
@@ -95,8 +106,8 @@ color: orange;
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
-    bottom: 100px;
-    margin-left: 850px;
+   bottom: 380px;
+    margin-left: 250px;
     -ms-zoom-animation: default;
     color:gold;
     display: -ms-flexbox;
@@ -112,7 +123,7 @@ color: orange;
     text-transform: capitalize;
     cursor: pointer;
     transition: 0.3s;
-    top: 130px;
+    top: 30px;
     margin-left: 50px;
     border: 1px solid green;
 }
@@ -124,16 +135,13 @@ color: orange;
     position: relative;
     height: 100vh;
     background-color: #f6f6f7;
-    top: 10px;
-    border-radius: 20px;
-    width: 90vw;
-    margin-left: 50px;
+bottom: 10px;
     display: -ms-flexbox;
+    justify-items: center;
 }
 .b1 button{
     position: relative;
     top: 20px;
-    margin-left: 600px;
     background-color: violet;
     border: 1px solid rgb(248, 11, 216);
     width: 6vw;
@@ -144,7 +152,6 @@ color: orange;
 .p p,h3{
     position: relative;
     top: 20px;
-    margin-left: 490px;
     text-decoration: solid;
     text-transform: capitalize;
     display: -ms-flexbox;
@@ -172,31 +179,37 @@ color: orange;
     display: -ms-flexbox;
     top: 10px;
 }
+.cat0 b,i{
+    position: relative;
+    text-align: center;
+    text-decoration: solid;
+    color: #0324f8;
+}
  .b2 button{
     position: relative;
     background-color: #23e00f;
-    height: 7vh;
+    height: 6vh;
     text-align: center;
     text-transform: capitalize;
     border-radius: 20px;
-    margin-left: 300px;
-    border: 1px solid green;
+    margin-right: 60px;
+    border: 1px solid rgb(3, 248, 3);
     cursor: pointer;
     transition: 0.3s;
+    font-size: 20px;
     display: -ms-flexbox;
  }
 .b2 button:hover{
      color: white;
-    background-color: #245524;
+     text-decoration: underline;
+     text-transform: lowercase;
+    background-color: #04ff04;
 }
  #slides.cou{
     position: relative;
-    width: 90vw;
-    height: 60vh;
-    background-color: white;
-    border-radius: 20px;
-    top: 20px;
-    margin-left: 50px;
+    height: 70vh;
+    background-color:wheat;
+    bottom: 20px;
     display: -ms-flexbox;
  }
  .b3 button{
@@ -238,7 +251,6 @@ text-decoration: solid;
 text-transform: capitalize;
 bottom: 170px;
 margin-left: 600px;
-display: -ms-flexbox;
  }
  .b4 button{
     position: relative;
@@ -248,7 +260,7 @@ display: -ms-flexbox;
     border: 1px solid rgb(0, 4, 255);
     color: white;
     bottom: 150px;
-    margin-left: 600px;
+    margin-left: 500px;
     cursor: pointer;
     transition: 0.3s;
     display: -ms-flexbox;
@@ -259,13 +271,11 @@ display: -ms-flexbox;
  }
  #posters.container{
     position: relative;
-    width: 90vw;
     height: 180vh;
+    justify-items: center;
     background-color: white;
-    border-radius: 20px;
-    bottom: 70px;
+    bottom: 100px;
     display: -ms-flexbox;
-    margin-left: 0px;
  }
  .b5 button{
     position: relative;
@@ -273,7 +283,6 @@ display: -ms-flexbox;
     background-color: violet;
     border: 1px solid rgb(247, 5, 247);
     top: 20px;
-    margin-left: 580px;
     width: 5vw;
     border-radius: 10px;
     display: -ms-flexbox;
@@ -284,14 +293,14 @@ display: -ms-flexbox;
     text-decoration: solid;
     text-transform: capitalize;
     font-size: 20px;
-    margin-left: 450px;
     display: -ms-flexbox;
  }
  .card0 p{
     position: relative;
     text-align: center;
+
     text-decoration: solid;
-    text-transform: capitalize;
+    text-transform: uppercase;
     display: -ms-flexbox;
  }
  .card1 img{
@@ -334,7 +343,6 @@ box-shadow: 10px 10px 0 0 blue;
     font-size: 20px;
     text-transform: capitalize;
     top: 20px;
-    margin-left: 340px;
     display: -ms-flexbox;
  }
  .card4 img{
@@ -373,11 +381,10 @@ box-shadow: 10px 10px 0 0 blue;
 #stickers.contain{
     position: relative;
     background-color: #f6f6f7;
-    width: 90vw;
-    height: 60vh;
-    border-radius: 20px;
-    bottom:60px;
-    margin-left: 0px;
+    height: 75vh;
+    bottom:100px;
+    justify-items: center;
+    border: 2px solid wheat;
     display: -ms-flexbox;
 }
 .card6 button{
@@ -387,7 +394,6 @@ box-shadow: 10px 10px 0 0 blue;
     background-color: violet;
     border: 1px solid rgb(250, 3, 250);
     top: 20px;
-    margin-left: 550px;
     border-radius: 10px;
     display: -ms-flexbox;
 }
@@ -397,7 +403,6 @@ box-shadow: 10px 10px 0 0 blue;
     text-decoration: solid;
     text-transform: capitalize;
     top: 20px;
-    margin-left: 430px;
     display: -ms-flexbox;
 }
 .ego img{
@@ -419,8 +424,7 @@ box-shadow: 10px 10px 0 0 blue;
     text-decoration: solid;
     text-transform: capitalize;
     font-size: 20px;
-    bottom: 200px;
-    margin-left: 750px;
+    bottom: 20px;
     display: -ms-flexbox;
 }
 .do button{
@@ -433,8 +437,7 @@ box-shadow: 10px 10px 0 0 blue;
     border: 1px solid rgb(3, 3, 66);
     transition: 0.3s;
     cursor: pointer; 
-    bottom: 230px;
-    margin-left: 800px;
+    bottom: 40px;
     display: -ms-flexbox;
 }
 .do button:hover{
@@ -442,27 +445,23 @@ box-shadow: 10px 10px 0 0 blue;
 }
 #emails.container0{
     position: relative;
-    width: 90vw;
     height: 80vh;
     background-color: #f6f6f7;
-    border-radius: 20px;
-    bottom: 50px;
+    bottom: 100px;
     display: -ms-flexbox;
+    justify-items: center;
 }
 #select.select1,select{
     position: relative;
-    width: 80vw;
     height: 10vh;
     text-align: center;
     text-decoration: solid;
     text-transform: capitalize;
     font-size: 20px;
-    margin-left: 30px;
     bottom: 0px;
     cursor: pointer;
     transition: 0.3s; 
     border: 1px solid violet;
-    border-radius: 10px;
     display: -ms-flexbox;
 }
 #select.select1,select:hover{
@@ -475,7 +474,6 @@ background-color: violet;
     top: 20px;
     border-radius: 10px;
     border: 1px solid violet;
-    margin-left: 560px;
     background-color: violet;
     display: -ms-flexbox;
 }
@@ -485,7 +483,6 @@ background-color: violet;
     text-decoration: solid;
     text-transform: capitalize;
     top: 20px;
-    margin-left: 490px;
     display: -ms-flexbox;
 }
 .car1 p{
@@ -500,11 +497,11 @@ background-color: violet;
 #logos.container1{
     display: -ms-flexbox;
     position: relative;
-    background-color: white;
-    width: 90vw;
-    bottom: 40px;
+    background-color:#178874;
     height: 127vh;
-    border-radius: 20px;
+    bottom: 100px;
+    justify-items: center;
+    border-radius: 0 0 20px 20px;
 }
 .car3 button{
     display: -ms-flexbox;
@@ -514,7 +511,6 @@ background-color: violet;
     border: 1px solid violet;
     border-radius: 10px;
     top: 20px;
-    margin-left: 550px;
     text-decoration: solid;
     text-transform: capitalize;
     background-color: rgb(229, 132, 229);
@@ -525,8 +521,7 @@ background-color: violet;
     text-decoration: solid;
     text-transform: capitalize;
     font-size: 25px;
-    top: 20px;
-    margin-left: 440px;
+    top: 20px;;
 }
 .car5 p{
     display: -ms-flexbox;
@@ -536,44 +531,6 @@ background-color: violet;
     font-size: 20px;
     top: 20px;
     text-align: center;
-}
-.c1 p{
-    display: -ms-flexbox;
-    position: relative;
-    font-size: 25px;
-    text-decoration: solid;
-    text-transform: capitalize;
-    color: #23e00f;
-    top:100px;
-    margin-left: 30px;
-}
-.c2 img{
-    display: -ms-flexbox;
-    position: relative;
-    width: 20vw;
-    height: 20vh;
-    border-radius: 20px;
-    top: 10px;
-    margin-left: 150px;
-}
-.c3 p{
-    position: relative;
-    font-size: 25px;
-    text-decoration: solid;
-    text-transform: capitalize;
-    color: #23e00f;
-    margin-left: 500px;
-    bottom: 110px;
-    display: -ms-flexbox;
-}
-.c4 img{
-    display: -ms-flexbox;
-    position: relative;
-    width: 20vw;
-    height: 20vh;
-    border-radius: 20px;
-   bottom: 200px;
-    margin-left: 630px;
 }
 .c6 button{
     position: relative;
@@ -585,8 +542,8 @@ background-color: violet;
     border-radius: 20px;
     transition: 0.3s;
     cursor: pointer;
-    bottom: 150px;
-    margin-left: 180px;
+    top: 300px;
+    margin-right:  100px;
     display: -ms-flexbox;
 }
 .c6 button:hover{
@@ -596,7 +553,7 @@ background-color: violet;
     display: -ms-flexbox;
     position: relative;
     text-decoration: underline;
-    bottom: 130px;
+    bottom: 50px;
     font-size: 25px;
     text-align: center;
     text-transform: capitalize;
@@ -608,19 +565,7 @@ background-color: violet;
     text-decoration: solid;
     text-transform: capitalize;
     font-size: 20px;
-    bottom: 160px;
-}
-.lang select{
-    position: relative;
-    display: -ms-flexbox;
-    width: 10vw;
-    height: 5vh;
-    border: 1px double black;
-    border-radius: 10px;
-    background-color: #e8c2f0;
-    color: rgb(8, 8, 8);
-    bottom: 250px;
-    margin-right: 800px;
+    bottom: 80px;
 }
 .val p{
     position: relative;
@@ -649,20 +594,23 @@ background-color: violet;
     text-decoration: none;
     top: 30px;
     text-align: center;
-    border: 1px solid rgb(1, 1, 24);
-    border-radius: 10px;
     margin-left: 20px;
+    text-transform: capitalize;
     transition: 0.3s;
     cursor: pointer;
 }
 .lit a:hover{
-    background-color: #01093a;
+    text-decoration: underline;
+    background: transparent;
+    text-transform: lowercase;
+    font-size: 20px;
 }
 .her p{
     position: relative;
     font-size: 20px;
     text-align: left;
-    top: 60px;
+    top:140px;
+    text-align: center;
     color: white;
     margin-left: 22px;
     display: -ms-flexbox;
@@ -706,8 +654,8 @@ background-color: violet;
     cursor: pointer;
     transition: 0.3s;
     border-radius: 10px;
-    bottom: 390px;
-    margin-left: 850px;
+    bottom: 20px;
+    justify-items: end;
     display: -ms-flexbox;
 }
 .back button:hover{
