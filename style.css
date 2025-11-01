@@ -90,6 +90,18 @@ top: 40px;
 margin-left: 70px;
 display: -ms-flexbox;
 color: orange;
+animation-name: eva;
+animation-duration: 5s;
+animation-delay: 5s;
+animation-iteration-count: infinite;
+animation-fill-mode: both;
+}
+@keyframes eva{
+    0%{color: #0324f8;}
+    25%{color: #04ff04;}
+    50%{color: #178874;}
+    75%{color: #567234;}
+    100%{color: #01093a;}
 }
 .item0 p{
     position: relative;
@@ -111,6 +123,20 @@ color: orange;
     -ms-zoom-animation: default;
     color:gold;
     display: -ms-flexbox;
+    animation-name: ev;
+    animation-duration: 10s;
+    animation-delay: 10s;
+    -o-animation-delay: 6s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+}
+@keyframes ev{
+    0%{color:#04ff04;}
+    25%{color: #178874;}
+    50%{color: #567234;}
+    75%{color: #7c7cca;}
+    100%{color: #efbbcd;}
 }
 .item2 button{
     width: 10vw;
@@ -271,7 +297,7 @@ margin-left: 600px;
  }
  #posters.container{
     position: relative;
-    height: 180vh;
+    height: 200vh;
     justify-items: center;
     background-color: white;
     bottom: 100px;
@@ -310,6 +336,7 @@ margin-left: 600px;
     border-radius: 20px;
     gap: 10px;
     margin-left: 30px;
+    font-size: 20px;
     cursor: pointer;
     transition: 0.3s;
     display: -ms-flexbox;
@@ -380,12 +407,12 @@ box-shadow: 10px 10px 0 0 blue;
  }
 #stickers.contain{
     position: relative;
-    background-color: #f6f6f7;
+    background-color: #7c7cca;
     height: 75vh;
     bottom:100px;
     justify-items: center;
     border: 2px solid wheat;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .card6 button{
     position: relative;
@@ -411,7 +438,7 @@ box-shadow: 10px 10px 0 0 blue;
     height: 30vh;
     border-radius: 10px;
     top: 10px;
-    margin-left: 20px;
+    margin-right: 150px;
     cursor: pointer;
     transition: 0.3s;
     display: -ms-flexbox;
@@ -479,7 +506,7 @@ background-color: violet;
 }
 .car0 p{
     position: relative;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: solid;
     text-transform: capitalize;
     top: 20px;
@@ -495,8 +522,9 @@ background-color: violet;
     text-align: center;
 }
 #logos.container1{
-    display: -ms-flexbox;
+    display: flexbox;
     position: relative;
+    color: white;
     background-color:#178874;
     height: 127vh;
     bottom: 100px;
@@ -542,12 +570,17 @@ background-color: violet;
     border-radius: 20px;
     transition: 0.3s;
     cursor: pointer;
-    top: 300px;
+    top: 350px;
     margin-right:  100px;
     display: -ms-flexbox;
 }
 .c6 button:hover{
     background-color: rgb(2, 2, 70);
+}
+.vibe i{
+    position: relative;
+    font-size: 30px;
+    color: #04ff04;
 }
 .c5 p{
     display: -ms-flexbox;
@@ -604,6 +637,7 @@ background-color: violet;
     background: transparent;
     text-transform: lowercase;
     font-size: 20px;
+    color: #04ff04;
 }
 .her p{
     position: relative;
