@@ -26,10 +26,10 @@ body{
     margin-left: 10px;
     display: flow-root;
     color: rgb(4, 252, 4);
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .navbar{
-    display: -ms-flexbox;
+    display: flexbox;
     text-decoration: none;
     text-transform: capitalize;
     justify-content: space-evenly;
@@ -38,7 +38,7 @@ body{
     padding: 1rem;
 }
 .menu{
-    display: -ms-flexbox;
+    display: flexbox;
     gap: 20px;
 }
 .menu a{
@@ -50,7 +50,7 @@ body{
     margin-left: 20px;
     transition: 0.3s;
     cursor: pointer;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .menu a:hover{
     text-transform: lowercase;
@@ -59,9 +59,11 @@ body{
 }
 .some{
     justify-items: end;
-    padding: 2rem;
+    padding: 1rem;
     position: relative;
     background-color: #01093a;
+    display: flexbox;
+    height: 5vh;
 }
 .but button{
     position:fixed;
@@ -76,7 +78,7 @@ body{
     transition: 0.3s;
     border: 1px solid violet;
     border-radius: 20px;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .but button:hover{
     background-color: #23e00f;
@@ -88,7 +90,7 @@ body{
 font-style: italic;
 top: 40px;
 margin-left: 70px;
-display: -ms-flexbox;
+display: flexbox;
 color: orange;
 animation-name: eva;
 animation-duration: 5s;
@@ -112,17 +114,17 @@ animation-fill-mode: both;
     margin-left: 80px;
     text-transform: capitalize;
     text-decoration: solid;
-    display: -ms-flexbox;
+    display:flexbox;
 }
 .item1 p,h2{
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
-   bottom: 380px;
-    margin-left: 250px;
     -ms-zoom-animation: default;
+    margin-right: 280px;
+    bottom: 60px;
     color:gold;
-    display: -ms-flexbox;
+    display: flexbox;
     animation-name: ev;
     animation-duration: 10s;
     animation-delay: 10s;
@@ -144,12 +146,12 @@ animation-fill-mode: both;
     height: 6vh;
     font-size: 20px;
     justify-content: space-between;
-    display: -ms-flexbox;
+    display: flexbox;
     border-radius: 20px;
     text-transform: capitalize;
     cursor: pointer;
     transition: 0.3s;
-    top: 30px;
+    top: 90px;
     margin-left: 50px;
     border: 1px solid green;
 }
@@ -162,7 +164,7 @@ animation-fill-mode: both;
     height: 100vh;
     background-color: #f6f6f7;
 bottom: 10px;
-    display: -ms-flexbox;
+    display: flexbox;
     justify-items: center;
 }
 .b1 button{
@@ -173,18 +175,18 @@ bottom: 10px;
     width: 6vw;
     height: 6vh;
     border-radius: 10px;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .p p,h3{
     position: relative;
     top: 20px;
     text-decoration: solid;
     text-transform: capitalize;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .cat img{
     position: relative;
-    display: -ms-flexbox;
+    display: flexbox;
     width: 25vw;
     height: 20vh;
     border-radius: 10px;
@@ -202,7 +204,7 @@ bottom: 10px;
     text-align: center;
     text-transform: capitalize;
     font-size: 20px;
-    display: -ms-flexbox;
+    display: flexbox;
     top: 10px;
 }
 .cat0 b,i{
@@ -210,6 +212,7 @@ bottom: 10px;
     text-align: center;
     text-decoration: solid;
     color: #0324f8;
+    display: flexbox;
 }
  .b2 button{
     position: relative;
@@ -223,7 +226,7 @@ bottom: 10px;
     cursor: pointer;
     transition: 0.3s;
     font-size: 20px;
-    display: -ms-flexbox;
+    display: flexbox;
  }
 .b2 button:hover{
      color: white;
@@ -236,7 +239,7 @@ bottom: 10px;
     height: 70vh;
     background-color:wheat;
     bottom: 20px;
-    display: -ms-flexbox;
+    display: flexbox;
  }
  .b3 button{
     position: relative;
@@ -246,7 +249,7 @@ bottom: 10px;
     top: 20px;
     margin-left: 550px;
     border-radius: 10px;
-    display: -ms-flexbox;
+    display: flexbox;
     border: 1px solid rgb(253, 4, 253);
  }
  .ct p{
@@ -255,7 +258,7 @@ bottom: 10px;
     text-transform: capitalize;
     margin-left: 520px;
     top: 10px;
-    display: -ms-flexbox;
+    display: flexbox;
  }
  .cti img{
     position: relative;
@@ -266,7 +269,7 @@ bottom: 10px;
     border-radius: 10px;
     transition: 0.3s;
     cursor: pointer;
-    display: -ms-flexbox;
+    display: flexbox;
  }
  .cti img:hover{
     box-shadow: 10px 0 10px 0 green;
@@ -277,6 +280,7 @@ text-decoration: solid;
 text-transform: capitalize;
 bottom: 170px;
 margin-left: 600px;
+display: flexbox;
  }
  .b4 button{
     position: relative;
@@ -289,7 +293,7 @@ margin-left: 600px;
     margin-left: 500px;
     cursor: pointer;
     transition: 0.3s;
-    display: -ms-flexbox;
+    display:flexbox;
  }
  .b4 button:hover{
     background-color: #567234;
@@ -301,7 +305,7 @@ margin-left: 600px;
     justify-items: center;
     background-color: white;
     bottom: 100px;
-    display: -ms-flexbox;
+    display: flexbox;
  }
  .b5 button{
     position: relative;
@@ -311,7 +315,7 @@ margin-left: 600px;
     top: 20px;
     width: 5vw;
     border-radius: 10px;
-    display: -ms-flexbox;
+    display:flexbox;
  }
  .card p{
     position: relative;
@@ -319,7 +323,7 @@ margin-left: 600px;
     text-decoration: solid;
     text-transform: capitalize;
     font-size: 20px;
-    display: -ms-flexbox;
+    display: flexbox;
  }
  .card0 p{
     position: relative;
@@ -327,7 +331,7 @@ margin-left: 600px;
 
     text-decoration: solid;
     text-transform: uppercase;
-    display: -ms-flexbox;
+    display: flexbox;
  }
  .card1 img{
     position: relative;
@@ -339,7 +343,7 @@ margin-left: 600px;
     font-size: 20px;
     cursor: pointer;
     transition: 0.3s;
-    display: -ms-flexbox;
+    display: flexbox;
  }
  .card1 img:hover{
 box-shadow: 10px 10px 0 0 blue;
@@ -358,7 +362,7 @@ box-shadow: 10px 10px 0 0 blue;
     border-radius: 20px;
     cursor: pointer;
     transition:0.3s;
-    display: -ms-flexbox;
+    display: flexbox;
  }
  .card2 button:hover{
     background-color: rgb(3, 3, 90);
@@ -370,7 +374,7 @@ box-shadow: 10px 10px 0 0 blue;
     font-size: 20px;
     text-transform: capitalize;
     top: 20px;
-    display: -ms-flexbox;
+    display: flexbox;
  }
  .card4 img{
     position: relative;
@@ -382,7 +386,7 @@ box-shadow: 10px 10px 0 0 blue;
     transition: 3s;
     cursor: pointer;
     box-shadow: 10px 10px 0 0;
-    display: -ms-flexbox;
+    display: flexbox;
  }
  .card4 img:hover{
     background-color: violet;
@@ -400,7 +404,7 @@ box-shadow: 10px 10px 0 0 blue;
     color: white;
     cursor: pointer;
     transition: 0.3s;
-    display: -ms-flexbox;
+    display: flexbox;
  }
  .card5 button:hover{
     background-color: rgb(2, 2, 63);
@@ -422,7 +426,7 @@ box-shadow: 10px 10px 0 0 blue;
     border: 1px solid rgb(250, 3, 250);
     top: 20px;
     border-radius: 10px;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .hero p{
     position: relative;
@@ -430,7 +434,7 @@ box-shadow: 10px 10px 0 0 blue;
     text-decoration: solid;
     text-transform: capitalize;
     top: 20px;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .ego img{
     position: relative;
@@ -441,7 +445,7 @@ box-shadow: 10px 10px 0 0 blue;
     margin-right: 150px;
     cursor: pointer;
     transition: 0.3s;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .ego img:hover{
     box-shadow: 10px 10px 10px 10px violet;
@@ -452,7 +456,7 @@ box-shadow: 10px 10px 0 0 blue;
     text-transform: capitalize;
     font-size: 20px;
     bottom: 20px;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .do button{
     position: relative;
@@ -465,7 +469,7 @@ box-shadow: 10px 10px 0 0 blue;
     transition: 0.3s;
     cursor: pointer; 
     bottom: 40px;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .do button:hover{
     background-color: rgb(28, 2, 75);
@@ -475,7 +479,7 @@ box-shadow: 10px 10px 0 0 blue;
     height: 80vh;
     background-color: #f6f6f7;
     bottom: 100px;
-    display: -ms-flexbox;
+    display: flexbox;
     justify-items: center;
 }
 #select.select1,select{
@@ -489,7 +493,7 @@ box-shadow: 10px 10px 0 0 blue;
     cursor: pointer;
     transition: 0.3s; 
     border: 1px solid violet;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 #select.select1,select:hover{
 background-color: violet;
@@ -502,7 +506,7 @@ background-color: violet;
     border-radius: 10px;
     border: 1px solid violet;
     background-color: violet;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .car0 p{
     position: relative;
@@ -510,7 +514,7 @@ background-color: violet;
     text-decoration: solid;
     text-transform: capitalize;
     top: 20px;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .car1 p{
     display:-ms-flexbox;
@@ -526,13 +530,13 @@ background-color: violet;
     position: relative;
     color: white;
     background-color:#178874;
-    height: 127vh;
+    height: 135vh;
     bottom: 100px;
     justify-items: center;
     border-radius: 0 0 20px 20px;
 }
 .car3 button{
-    display: -ms-flexbox;
+    display: flexbox;
     position: relative;
     width: 6vw;
     height: 6vh;
@@ -544,7 +548,7 @@ background-color: violet;
     background-color: rgb(229, 132, 229);
 }
 .car4 p{
-    display: -ms-flexbox;
+    display: flexbox;
     position: relative;
     text-decoration: solid;
     text-transform: capitalize;
@@ -552,7 +556,7 @@ background-color: violet;
     top: 20px;;
 }
 .car5 p{
-    display: -ms-flexbox;
+    display: flexbox;
     position: relative;
     text-decoration: solid;
     text-transform: capitalize;
@@ -562,17 +566,17 @@ background-color: violet;
 }
 .c6 button{
     position: relative;
-    width: 6vw;
-    height: 6vh;
+    width: 7vw;
+    height: 4vh;
     background-color: rgb(4, 4, 128);
     color: #f6f6f7;
     border: 1px solid rgb(4, 4, 109);
     border-radius: 20px;
     transition: 0.3s;
     cursor: pointer;
-    top: 350px;
+    top: 400px;
     margin-right:  100px;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .c6 button:hover{
     background-color: rgb(2, 2, 70);
@@ -581,9 +585,14 @@ background-color: violet;
     position: relative;
     font-size: 30px;
     color: #04ff04;
+    top: 30px;
+}
+.vibe p{
+    position: relative;
+    top: 30px;
 }
 .c5 p{
-    display: -ms-flexbox;
+    display: flexbox;
     position: relative;
     text-decoration: underline;
     bottom: 50px;
@@ -592,7 +601,7 @@ background-color: violet;
     text-transform: capitalize;
 }
 .c0 p{
-    display: -ms-flexbox;
+    display: flexbox;
     position: relative;
     text-align: center;
     text-decoration: solid;
@@ -602,7 +611,7 @@ background-color: violet;
 }
 .val p{
     position: relative;
-    display: -ms-flexbox;
+    display: flexbox;
     font-size: 25px;
     text-transform: capitalize;
     text-align: center;
@@ -617,13 +626,13 @@ background-color: violet;
     align-items: center;
 }
 .lit{
-    display:-ms-flexbox;
+    display:flexbox;
     gap: 10px;
 }
 .lit a{
     position: relative;
     color: white;
-    display: -ms-flexbox;
+    display: flexbox;
     text-decoration: none;
     top: 30px;
     text-align: center;
@@ -647,7 +656,7 @@ background-color: violet;
     text-align: center;
     color: white;
     margin-left: 22px;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .link img{
     position: relative;
@@ -657,7 +666,7 @@ background-color: violet;
     margin-left: 800px;
     top: 20px;
     flex-direction: row;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .link1 img{
      position: relative;
@@ -666,7 +675,7 @@ background-color: violet;
     border-radius: 20px;
     margin-left: 850px;
     bottom:15px;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .link2 img{
      position: relative;
@@ -676,7 +685,7 @@ background-color: violet;
     margin-left: 900px;
     bottom:50px;
     flex-direction: row;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .back button{
     position: relative;
@@ -690,7 +699,7 @@ background-color: violet;
     border-radius: 10px;
     bottom: 20px;
     justify-items: end;
-    display: -ms-flexbox;
+    display: flexbox;
 }
 .back button:hover{
     background-color: #567234;
