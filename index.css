@@ -34,7 +34,7 @@
 .footer{
 background-color: #677787;
  top: 20px;
-    height: 65vh;
+    height: 75vh;
     text-align: center;
 }
 .f p{
@@ -46,23 +46,23 @@ background-color: #677787;
     margin-left: 20px;
 }
 #initiative.btn{
-    background-image: url('./image/image1/evariste.jpg');
+    background-image: url('./image/image1/1.jpg');
     background-size: cover;
-    bottom: 20px;
+    bottom:20px;
     opacity: 1;
     position: relative;
-    height: 80vh;
+    height: 85vh;
    justify-items: center;
    display: flexbox;
 }
 .btn1 p{
 position: relative;
 width: 75vw;
-height: 20vh;
-top: 30px;
+height: 25vh;
+top: 10px;
 background-color: #5677;
 border: 1px solid;
-color: rgb(8, 8, 8);
+color:white;
 border-radius: 5px;
 font-size: 20px;
 text-align: center;
@@ -72,7 +72,7 @@ display: flexbox;
 }
 .btn1 p:hover{
     background-color: #788f7a;
-    color: white;
+    color:black;
 }
 .web1 p{
     position: relative;
@@ -98,7 +98,7 @@ display: flexbox;
     display: flexbox;
 }
 #contact.bt{
-    background-image:url('./image/image3/images.jpg');
+    background-image:url('./image/image1/nature.jpg');
     top: 39px;
     opacity: 1;
     position: relative;
@@ -180,13 +180,13 @@ display: flexbox;
     bottom: 45px;
     position: relative;
     text-align: center;
-   display: -ms-flexbox;
-   height: 97vh;
+   display: flexbox;
+   height: 100vh;
 }
 .im1 img{
     position: relative;
     width: 90vw;
-    display: -ms-flexbox;
+    display: flexbox;
     height: 85vh;
     border-radius: 10px;
     border: 2px solid white;
@@ -234,6 +234,14 @@ display: flexbox;
     margin-left: 30px;
     display: flexbox;
     text-align: center;
+    transition:0.3s;
+   cursor: pointer;
+}
+.line a:hover{
+    color: #9d10fc;
+    font-size: 20px;
+    text-transform: lowercase;
+    text-decoration: underline;
 }
 .para{
     position: relative;
