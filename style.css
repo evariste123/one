@@ -34,7 +34,7 @@ body{
     text-transform: capitalize;
     justify-content: space-evenly;
     justify-items: center;
-    background-color: #178874;
+    background-color: #f9fcfb;
     padding: 1rem;
 }
 .menu{
@@ -46,7 +46,7 @@ body{
     text-decoration: none;
     text-transform: capitalize;
     font-size: 20px;
-    color: #23e00f;
+    color: #380cff;
     margin-left: 20px;
     transition: 0.3s;
     cursor: pointer;
@@ -54,8 +54,14 @@ body{
 }
 .menu a:hover{
     text-transform: lowercase;
-    color: #01093a;
+    color: #fd0edd;
+    font-size: 25px;
     text-decoration: underline;
+}
+.log{
+    position: relative;
+    top: 20px;
+    right: 20px;
 }
 .some{
     justify-items: end;

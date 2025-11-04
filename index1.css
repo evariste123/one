@@ -1,12 +1,13 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-color:whitesmoke;
+    background-color:rgb(226, 226, 226);
 }
 .hav{
-background-color: #25685567;
-padding: 1rem;
+background-color: whitesmoke;
+padding: 0.5rem;
 text-transform: capitalize;
+border: 1px solid rgb(230, 215, 215);
 justify-items: center;
 }
 .lite{
@@ -16,69 +17,147 @@ gap: 20px;
 .lite a{
     text-decoration: none;
     position: relative;
-    color: white;
+    color: rgb(1, 1, 12);
     margin-left: 20px;
     display: -moz-box;
     transition: 0.3s;
+    bottom: 10px;
     cursor: pointer;
     text-shadow: 5px 5px 0 0 orangered;
 }
 .lite a:hover{
 background:transparent;
-color: black;
+color: rgb(253, 16, 182);
 text-decoration: underline;
 text-transform: lowercase;
+font-size: 20px;
 }
 .log{
-    background-color: #400094ee;
-     animation-name: java;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-   background-position: top;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    width: 2vw;
+    background-color: #867898;
+    height: 4vh;
+  border-radius: 20px;
+  display:flexbox;
 }
-.log img{
+.lo{
+    position:relative;
+    bottom: 27px;
+    background-image: url('./image/image1/tree.jpg');
+    opacity: 1;
+    background-size: cover;
+    height: 35vh;
+}
+.lo p{
+    display: -ms-flexbox;
+    position: relative;
+    font-size: 25px;
+    text-decoration: solid;
+    text-transform: capitalize;
+    color: rgb(252, 4, 128);
+    text-align: center;
+    top: 20px;
+}
+.butt button{
+position: relative;
+height: 5vh;
+width: 15vw;
+text-align:center ;
+display: -ms-flexbox;
+text-decoration: solid;
+text-transform: capitalize;
+background-color: #650fbb ;
+border: 1px solid #650fbb;
+transition: 0.3s;
+cursor: pointer;
+color: white;
+bottom: 59px;
+margin-left: 80px;
+}
+.butt button:hover{
+    background-color: #640eee;
+    text-transform: lowercase;
+    text-decoration: wavy;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+}
+.jam button{
+position: relative;
+height: 5vh;
+width: 15vw;
+text-align:center ;
+display: -ms-flexbox;
+text-decoration: solid;
+text-transform: capitalize;
+background-color: #650fbb ;
+border: 1px solid #650fbb;
+transition: 0.3s;
+cursor: pointer;
+color: white;
+bottom: 90px;
+margin-left: 300px;
+}
+.jam button:hover{
+ background-color: #640eee;
+    text-transform: lowercase;
+    text-decoration: wavy;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+}
+.icon img{
     position: relative;
     width: 40px;
+    display: -ms-flexbox;
     height: 40px;
+    border-radius: 10px;
+      cursor: pointer;
+    transition: 0.3s;
+    top: 60px;
     margin-left: 20px;
-    bottom: 45px;
-    border-radius: 5px;
-    align-items: center;
 }
-.lo p,b{
-    position: relative;
-    text-align: center;
-    top: 10px;
-    text-decoration: solid;
-    text-transform: uppercase;
-    text-decoration: underline;
-    color: green;
-}
-@keyframes java{
-    0%{background-image: url('./image/images.jpg');}
-    25%{background-image: url('./image/images.jpg');}
-    50%{background-image: url('./image/images.jpg');}
-    75%{background-image: url('./image/images.jpg');}
-    100%{background-image: url('./image/images.jpg');}
-}
-.search-box{
-    margin: 0;
-}
-.search-box button,input{
-    background-color: #d1c3d1;
-    text-decoration: solid;
-    display: flexbox;
-    font-size: 15px;
-    position: relative;
-    color: black;
-    border: 1px solid #867898;
-    border-radius: 5px;
-    text-align: center;
-}
-.ft{
-    position: relative;
-    top: 500px;
-    height: 20vh;
+.footer{
     background-color: #867898;
+    height: 20vh;
+    top: 500px;
+    position: relative;
+}
+.footer p{
+    position: relative;
+    text-align: center;
+    top: 0px;
+    text-decoration: solid;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.icon img:hover{
+    text-shadow: #640eee;
+    box-shadow: inset;
+}
+.main{
+    position: relative;
+    height: 90vh;
+    background-color: #04333333;
+    bottom: 90px;
+      justify-items: end;
+}
+.card img{
+    position: relative;
+    width: 20vw;
+    height: 40vh;
+    border: 1px solid #678587;
+    border-radius: 20px;
+    margin-right: 30px;
+    top: 30px;
+    display: flexbox;
+}
+.card1 p{
+    position: relative;
+    font-size: 20px;
+    text-decoration: solid;
+    bottom: 200px;
+    align-items: flex-start;
 }

@@ -123,6 +123,12 @@ display: flexbox;
     bottom: 10px;
     margin-left: 60px;
 }
+
+.log{
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
 .web0 p{
     position: relative;
     text-decoration: solid;
