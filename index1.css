@@ -118,13 +118,13 @@ margin-left: 300px;
     border-radius: 10px;
       cursor: pointer;
     transition: 0.3s;
-    top: 10px;
-    margin-left: 20px;
+    bottom: 5px;
+    margin-left: 80px;
 }
 .footer{
     background-color: #867898;
     height: 50vh;
-    top: 500px;
+   bottom: 10px;
     position: relative;
 }
 .footer p{
@@ -134,6 +134,7 @@ margin-left: 300px;
     top: 0px;
     text-decoration: solid;
     text-transform: capitalize;
+    margin-left: 20px;
 }
 .icon img:hover{
     text-shadow: #640eee;
@@ -162,10 +163,12 @@ margin-left: 300px;
     cursor: pointer;
     transition: 0.3s;
      border-style: groove;
+     font-size: medium;
  opacity: 1;
 }
 .cam img:hover{
 box-shadow: 5px 0 5px 0 #fc05c6dd;
+font-size: medium;
 }
 .com img{
     position: relative;
@@ -179,6 +182,7 @@ box-shadow: 5px 0 5px 0 #fc05c6dd;
 .com img:hover{
     box-shadow: 5px 0 5px 0 #fc05c6dd;
     font-size: larger;
+    font-size: medium;
 }
 .rub img{
     position: relative;
@@ -191,6 +195,7 @@ box-shadow: 5px 0 5px 0 #fc05c6dd;
 .rub img:hover{
     box-shadow: 5px 0 5px 0 #fc05c6dd;
     font-size: larger;
+    font-size: medium;
 
 }
 .cal{
@@ -240,12 +245,79 @@ box-shadow: 5px 0 5px 0 #fc05c6dd;
     background-color: #0dff42;
     border: 1px solid #0dff42;
     border-radius: 10px;
+    font-size: medium;
 }
 .java button{
     position: relative;
-    width: 7vw;
-    height: 5vh;
-    text-align: center;
+    width: 11vw;
+    height: 4vh;
+    bottom: 63px;
+    margin-left: 20px;
+    justify-content: end;
       background-color: #c5a7f5;
     border: 1px solid #ad91da;
+}
+.life{
+    background-image: url('./image/image3/images.jpg');
+    bottom: 10px;
+    position: relative;
+    background-repeat:repeat-x;
+    height: 30vw;
+    background-size: cover;
+    justify-items:center;
+    opacity: 1;
+}
+.bte p{
+    position: relative;
+    text-decoration: solid;
+    text-transform: uppercase;
+    color: #0e0d0d;
+    top: 10px;
+}
+.bte0 button{
+    position: relative;
+    width: 20vw;
+    border: 1px solid #fa0d9f;
+    height: 6vh;
+    transition: 0.3s;
+    background-color: #fa0d9f;
+    cursor: pointer;
+    top: 30px;
+    text-decoration: solid;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-right: 300px;
+}
+.bte0 button:hover{
+    font-size: medium;
+    background-color: #0bfa17;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid #0bfa17;
+    text-transform:lowercase ;
+    cursor: pointer;
+}
+.bte1 button{
+     position: relative;
+    width: 20vw;
+    border: 1px solid #fa0d9f;
+    height: 6vh;
+    transition: 0.3s;
+    background-color: #fa0d9f;
+    cursor: pointer;
+    bottom:9px;
+    color: rgb(241, 241, 247);
+    text-decoration: solid;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-left: 285px;
+}
+.bte1 button:hover{
+    font-size: medium;
+    background-color: #0e0d0d;
+    border: 1px solid #0e0d0d;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: lowercase;
+    color: white;
 }
