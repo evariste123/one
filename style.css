@@ -34,7 +34,7 @@ body{
     text-transform: capitalize;
     justify-content: space-evenly;
     justify-items: center;
-    background-color: #f9fcfb;
+    background-color: #3bfd0b;
     padding: 1rem;
 }
 .menu{
@@ -46,7 +46,7 @@ body{
     text-decoration: none;
     text-transform: capitalize;
     font-size: 20px;
-    color: #380cff;
+    color: #080808;
     margin-left: 20px;
     transition: 0.3s;
     cursor: pointer;
@@ -67,7 +67,7 @@ body{
     justify-items: end;
     padding: 1rem;
     position: relative;
-    background-color: #01093a;
+    background-color: #ff068f;
     display: flexbox;
     height: 5vh;
 }
@@ -75,19 +75,21 @@ body{
     position:fixed;
     width: 13vw;
     height: 4vh;
-    color: black;
+    color: rgb(253, 252, 253);
     text-transform: capitalize;
     text-decoration: none;
     top: 110px;
    margin-left: 50px;
     cursor: pointer;
     transition: 0.3s;
-    border: 1px solid violet;
+    border: 1px solid rgb(43, 6, 253);
+    background-color: #620efd;
     border-radius: 20px;
     display: flexbox;
 }
 .but button:hover{
-    background-color: #23e00f;
+    background-color: #1ef806;
+    border: 1px solid #04ff04;
 }
 .item p,h1{
     position: relative;
@@ -157,13 +159,15 @@ animation-fill-mode: both;
     text-transform: capitalize;
     cursor: pointer;
     transition: 0.3s;
+    background-color: #8cff08;
     top: 90px;
     margin-left: 50px;
-    border: 1px solid green;
+    border: 1px solid rgb(117, 255, 4);
 }
 .item2 button:hover{
     color: white;
     background-color:rgb(72, 72, 199);
+    border: 1px solid rgb(73, 73, 179);
 }
 #handouts.cont{
     position: relative;

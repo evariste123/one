@@ -4,7 +4,7 @@ body{
     background-color:rgb(226, 226, 226);
 }
 .hav{
-background-color: whitesmoke;
+background-color: #0bfa17;
 padding: 0.5rem;
 text-transform: capitalize;
 border: 1px solid rgb(230, 215, 215);
@@ -123,7 +123,7 @@ margin-left: 300px;
 }
 .footer{
     background-color: #867898;
-    height: 50vh;
+    height: 53vh;
    bottom: 10px;
     position: relative;
 }
@@ -206,7 +206,7 @@ font-size: medium;
     margin-right: 30px;
     font-size: medium;
     display: flexbox;
-    top: 90px;
+    top: 105px;
     color: white;
 }
 .cal1 p,u{
@@ -259,7 +259,7 @@ font-size: medium;
 }
 .life{
     background-image: url('./image/image3/images.jpg');
-    bottom: 10px;
+    bottom: 11px;
     position: relative;
     background-repeat:repeat-x;
     height: 30vw;

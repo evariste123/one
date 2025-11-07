@@ -5,7 +5,7 @@
     font-size: 20px;
     text-decoration: none;
     align-items: center;
-       background-color: #567487;
+      background-color: #640eee;
        padding: 10px;
        display: flexbox;
 }
@@ -15,7 +15,7 @@
 }
 .lit a{
     position: relative;
-    color: rgb(245, 244, 244);
+    color: rgb(253, 253, 253);
     display: flexbox;
     text-decoration: none;
     text-align: center;
@@ -25,7 +25,7 @@
 }
 .lit a:hover{
     text-decoration: underline;
-    color: #550887;
+    color: #fa05a8;
     text-transform: lowercase;
     font-size: 20px;
     text-transform: capitalize;
@@ -120,6 +120,7 @@ display: flexbox;
     text-decoration: solid;
     text-align: center;
     display: flexbox;
+    color: #09fd5a;
     bottom: 10px;
     margin-left: 60px;
 }
@@ -136,9 +137,9 @@ display: flexbox;
     font-style: italic;
     font-size: 20px;
     text-align: center;
-    background-color: #567487;
-    border: 1px solid rgb(3, 247, 3);
-    color: rgb(8, 253, 61);
+    background-color: #fd09c8;
+    border: 1px solid rgb(247, 3, 227);
+    color: rgb(8, 8, 8);
     top: 20px;
     display: flexbox;
 }
