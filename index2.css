@@ -4,9 +4,9 @@
     background-color: #0e0d0d;
     color: white;
     text-align: center;
-    height: 50vw;
     border-radius: 0 0 10px 10px;
     bottom: 20px;
+    display: flexbox;
 }
 .vid p{
     position: relative;
@@ -20,11 +20,11 @@
     height: 20vh;
     border-radius: 10px;
     border: 1px solid green;
-    display: -ms-flexbox;
     top: 30px;
      justify-items: end;
      cursor: pointer;
      transition: 0.3s;
+         border-radius: 0 0 10px 10px;
 }
 .vid1 video:hover{
     font-size: 20px;
@@ -34,12 +34,13 @@
     position: relative;
     align-items: center;
     background-color: #333333;
-    top: 20px;
+    bottom: 10px;
+    text-align: center;
     border-radius: 0 0 10px 10px;
 }
 .paragraph p{
     position: relative;
-    top: 30px;
+    top: 10px;
     text-align: center;
     text-decoration: solid;
     text-transform: capitalize;
@@ -48,7 +49,7 @@
 .video0 video{
     position: relative;
     border: 1px solid blue;
-    top: 40px;
+    top: 10px;
      width: 20vw;
     height: 20vh;
     border-radius: 10px;
@@ -101,9 +102,9 @@ font-size: 20px;
 }
 .hor p{
     position: relative;
-    top: 20px;
-    margin-right: 50px;
-    display: -ms-flexbox;
+    bottom: 10px;
+    margin-right: 0px;
+        border-radius: 0 0 10px 10px;
 }
 .hor textarea{
     position: relative;
@@ -139,6 +140,11 @@ font-size: 20px;
     justify-items: center;
     background-color: #534;
     height: 10vh;
+     animation-name: anima;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
 }
 .search input{
     position: relative;
@@ -151,6 +157,14 @@ font-size: 20px;
     color: white;
     border: 1px solid #0e0d0d;
     border-radius: 20px;
+}
+@keyframes anima{
+    from{
+        background-color:#867898 ;
+    }
+    to{
+        background-color: #087059;
+    }
 }
 .search input:hover{
     color: #0bfa17;
@@ -172,5 +186,106 @@ font-size: 20px;
     border: 1px solid #ff06de;
     font-size: medium;
     text-align: center;
+    border-radius: 10px;
+}
+.download{
+    position: relative;
+    background-color: antiquewhite;
+    border: 2px solid antiquewhite;
+    height: 100vh;
+    bottom: 35px;
+}
+.download p,h2{
+    position: relative;
+    text-align: center;
+    text-decoration: solid;
+    text-transform: capitalize;
+    color: blue;
+}
+.ima{
+    position: relative;
+    width: 25vw;
+    height: 40vh;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.ima:hover{
+    font-size: medium;
+   direction: ltr;
+   font-weight: lighter;
+   box-shadow: 5px 0 0 5px white;
+   font-size: 20px;
+}
+.w img{
+    position: relative;
+    width: 15vw;
+    height:20vh ;
+   top: 10px;
+   border-radius: 10px;
+}
+.ima b{
+    position: relative;
+    top: 10px;
+    text-decoration: solid;
+    text-transform: capitalize;
+    display: grid;
+}
+.imi{
+   text-align: center;
+   position: relative;
+   width: 25vw;
+   font-display: fallback;
+   height: 45vh;
+   bottom: 270px;
+   left: 370px;
+   border-radius: 10px;
+   display: grid;
+   border: 2px solid white;
+   cursor: pointer;
+   transition: 0.3s;
+   background-color: white;
+}
+.r img{
+    position: relative;
+    width: 15vw;
+    height: 20vh;
+    top: 10px;
+    border-radius: 10px;
+}
+.imi:hover{
+      font-size: medium;
+   direction: ltr;
+   font-weight: lighter;
+   box-shadow: 5px 0 0 5px white;
+   font-size: 20px;
+}
+.ini{
+    position: relative;
+    width: 25vw;
+    height: 40vh;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+   text-align: center;
+   isolation: isolate;
+    transition: 0.3s;
+        bottom: 550px;
+       left: 735px;
+}
+.ini:hover{
+    box-shadow: 5px 0 0 5px white;
+    font-size: medium;
+    direction: ltr;
+    font-weight: lighter;
+}
+.t img{
+     position: relative;
+    width: 15vw;
+    height: 20vh;
+    top: 10px;
     border-radius: 10px;
 }

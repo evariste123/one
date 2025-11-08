@@ -316,6 +316,7 @@ display: flexbox;
     background-color: white;
     bottom: 100px;
     display: flexbox;
+    text-align: center;
  }
  .b5 button{
     position: relative;
@@ -483,30 +484,6 @@ box-shadow: 10px 10px 0 0 blue;
 }
 .do button:hover{
     background-color: rgb(28, 2, 75);
-}
-#emails.container0{
-    position: relative;
-    height: 80vh;
-    background-color: #f6f6f7;
-    bottom: 100px;
-    display: flexbox;
-    justify-items: center;
-}
-#select.select1,select{
-    position: relative;
-    height: 10vh;
-    text-align: center;
-    text-decoration: solid;
-    text-transform: capitalize;
-    font-size: 20px;
-    bottom: 0px;
-    cursor: pointer;
-    transition: 0.3s; 
-    border: 1px solid violet;
-    display: flexbox;
-}
-#select.select1,select:hover{
-background-color: violet;
 }
 .car button{
     position: relative;
@@ -707,10 +684,22 @@ background-color: violet;
     cursor: pointer;
     transition: 0.3s;
     border-radius: 10px;
-    bottom: 20px;
+    bottom: 50px;
     justify-items: end;
     display: flexbox;
 }
 .back button:hover{
     background-color: #567234;
+}
+#select.lan,select{
+    position: relative;
+    border: 1px solid #cd04ff;
+    background-color: #cd04ff;
+    border-radius: 10px;
+    height: 5vh;
+    text-align: center;
+    color: white;
+    bottom: 30px;
+    text-decoration: solid;
+    text-transform: capitalize;
 }
